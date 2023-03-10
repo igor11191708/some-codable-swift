@@ -1,7 +1,7 @@
 # Some codable
 ## Subsidiary package
 
-##SomeEncodable
+## SomeEncodable
 A type that can encode itself to an external representation from different types.
 
 ```swift
