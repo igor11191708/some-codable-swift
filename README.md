@@ -1,4 +1,4 @@
-# Some codable
+# SomeCodable
 ## Subsidiary package
 
 ### SomeEncodable
@@ -17,7 +17,7 @@ A type that can encode itself to an external representation from different types
             print(str)
         }
 ```
-*[{"name":"User"},640,20.649999999999999,"DPMSolverMultistep"]*
+*[{"name":"User"},640,20.65,"DPMSolverMultistep"]*
 
 ```swift
         struct User: Encodable{
@@ -34,4 +34,4 @@ A type that can encode itself to an external representation from different types
 
 ```
 
-*{"width":640,"data":{"name":"User"},"num_inference_steps":20.649999999999999}*
+*{"width":640,"data":{"name":"User"},"num_inference_steps":20.65}*
