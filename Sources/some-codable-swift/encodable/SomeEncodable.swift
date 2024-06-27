@@ -7,6 +7,8 @@
 
 import Foundation
 
+
+/// The SomeEncodable struct provides a type-erased way to encode and decode JSON data. This can be particularly useful when you need to handle different types that conform to Encodable without knowing their specific types at compile time.
 public struct SomeEncodable: IEncodable, IHashable{
 
     public typealias ValueType = Self
